@@ -1,0 +1,40 @@
+.charts {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .chart-container {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .chart-container h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .chart-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-tabs button {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .chart-tabs button.active {
+    background-color: #f0f0f0;
+  }
+  
+  .chart {
+    height: 300px;
+  }

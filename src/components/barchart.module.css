@@ -1,0 +1,49 @@
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px; /* Add a height to the chart container */
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  margin: 0 5px;
+  background-color: #ccc;
+  position: relative; /* Add this to position the text inside the bars */
+}
+
+.bar-fill {
+  background-color: #333; /* Change the color of the filled part of the bar */
+  position: absolute; /* Position the filled part of the bar at the bottom of the container */
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar-fill span {
+  display: block;
+  text-align: justify;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.bar-fill span:first-child {
+  font-weight: bold;
+}
+
+.bar-fill span:nth-child(2) {
+  font-size: 10px;
+}
+
+.bar-label {
+  position: absolute;
+  bottom: -20px; /* Adjust the position as needed */
+  text-align: center;
+  width: 100%;
+}

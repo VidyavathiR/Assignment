@@ -1,0 +1,35 @@
+.main-content {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 60px);
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 1; /* Adjust to take one part of the space */
+}
+
+.right-column {
+  flex: 1; /* Adjust to take one part of the space */
+}
+
+.ProfileSection, .Charts, .ActiveStudents, .ToDoList, .EngagementSection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,195 @@
+/* dashboard.css */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .sidebar {
+    width: 180px;
+    background-color: #2979ff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar i {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header .search-bar {
+    width: 300px;
+  }
+  
+  .header .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .header .search-bar button {
+    padding: 8px 12px;
+    background-color: #2979ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quick-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .quick-actions button {
+    padding: 10px 20px;
+    background-color: #2979ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dashboard-item {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-item h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dashboard-item .chart {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-item .legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-item .legend i {
+    font-size: 16px;
+  }
+  
+  .dashboard-item .legend span {
+    font-size: 14px;
+  }
+  
+  .to-do {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .to-do h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .to-do ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .to-do li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .to-do li span {
+    font-weight: bold;
+  }
+  
+  .student-engagement {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-engagement h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .student-engagement p {
+    margin-bottom: 10px;
+  }
+  
+  .student-engagement ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-engagement li {
+    margin-bottom: 10px;
+  }
